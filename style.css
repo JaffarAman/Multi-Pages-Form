@@ -1,0 +1,104 @@
+*{
+    /* /margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+.mainhead{
+    text-align: center;
+}
+.header  td{
+    
+    /* border: 1px solid black; */
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* step  main Header  */
+
+.header {
+    
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black;    */
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+/* step-1 Box Edit */
+
+.accountBox1{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.accountbox{
+    width: 40%;
+
+}
+.accountbox legend{
+    font-weight:bold;
+    font-size: 22px;
+}
+
+.accountbox p {
+    font-weight: bold;
+}
+
+.accountbox input{
+    width:80%;
+    outline: none;
+    height: 25px;
+    padding: 5px;
+}
+    /* ////Step-02 Styling */
+.personalbox{
+    display: flex;
+    justify-content: center;
+    margin-top:20px ;
+}
+.personalbox fieldset{
+    width: 40%;
+
+}    
+.personalbox legend{
+    font-weight: bold;
+    font-size: 22px;
+}
+.personalbox table td input{
+    width: 20px;
+    height: 22px;
+    text-align: center;
+    outline: none;
+}
+.personalbox input{
+    width: 80%;
+    outline: none;
+    height: 25px;
+}
+.personalbox p{
+    font-weight: bold;
+}
+
+    /* /////step-03 styling */
+.review{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    }
+.review fieldset{
+    width: 40%;
+}
+.review legend{
+    font-weight: bold;
+    font-size: 22px;
+}
+.review p{
+    font-weight: bold;
+}
+.review textarea{
+    outline: none;
+    padding: 5px;
+}

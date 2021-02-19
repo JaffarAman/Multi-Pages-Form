@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+
+        <table>
+            <tr>
+                <td bgcolor="#green">Step 1: Account</td>
+                <td bgcolor="#green">Step 2: Personal Details</td>
+                <td bgcolor="#0096FF">Step 3: Your Review</td>
+            </tr>
+        </table>
+    </div>
+    <div class="review">
+        <fieldset>
+            <legend>
+                Your Review:
+            </legend>
+            <p>How did you hear about us?
+                <select>
+                    <option value="none" disabled selected> Select Your option</option>
+                    <option value="newspaper">NewsPaper</option>
+                    <option value="socialMedia">Social Media</option>
+                    <option value="Friends">Friends</option>
+                    <option value="other">Other</option>
+                </select>
+            </p>
+            <p>Would you visit again? <br>
+                <input type="radio" name="visit" value="yes">Yes
+                <input type="radio" name="visit" value="No">No
+                <input type="radio" name="visit" value="maybe">Maybe
+
+            </p>
+            <p>
+                Comments: <br>
+                <textarea name="Comments" id="" cols="40" rows="5"></textarea>
+            </p>
+            <p>
+                Documents: <br>
+                <input type="file">
+            </p>
+            <p>
+                <input type="checkbox">Sign me up for email updates
+            </p>
+            <a href="step-2.html">
+
+                <img src="back.png" width="120" alt="">
+            </a>
+            <a href="index.html">
+                <img src="next.png" width="120" alt="">
+
+            </a>
+
+        </fieldset>
+    </div>
+
+</body>
+
+</html>
